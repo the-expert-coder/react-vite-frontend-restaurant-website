@@ -1,5 +1,5 @@
-# react-vite-frontend-restaurant-website
-# Food Delivery App Front-End React JS Project
+# 
+# Restaurant App Front-End React JS Project
 
 - Smooth Scrolling
 - Smooth animations and effects
