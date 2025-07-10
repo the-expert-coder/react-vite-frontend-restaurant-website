@@ -1,5 +1,5 @@
 # Food Delivery App Front-End React JS Project
-<a href="https://dynamic-ganache-d3d68c.netlify.app/" target="_blank"><h2>Preview</h2></a>
+<h2><a href="https://dynamic-ganache-d3d68c.netlify.app/" target="_blank">Preview</a></h2>
 
 - Smooth Scrolling
 - Smooth animations and effects
