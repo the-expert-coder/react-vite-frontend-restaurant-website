@@ -1,5 +1,5 @@
 # Food Delivery App Front-End React JS Project
-<h2><a href="https://dynamic-ganache-d3d68c.netlify.app](https://verdant-bombolone-ff3195.netlify.app/" target="_blank">Preview Link</a></h2>
+<h2><a href="https://verdant-bombolone-ff3195.netlify.app/" target="_blank">Preview Link</a></h2>
 
 - Smooth Scrolling
 - Smooth animations and effects
