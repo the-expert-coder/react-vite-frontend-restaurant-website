@@ -1,0 +1,147 @@
+.explore-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.explore-menu h1 {
+  color: var(--dark);
+  font-weight: 500;
+}
+
+.explore-menu-text {
+  max-width: 60%;
+  color: var(--gray);
+  text-align: justify;
+}
+
+.explore-menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  margin: 20px 0;
+  overflow-x: scroll;
+}
+
+.explore-menu-list::-webkit-scrollbar {
+  display: none;
+}
+
+.explore-menu-list-item img {
+  width: 7.5vw;
+  min-width: 80px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.2s ease;
+}
+
+.explore-menu-list-item p {
+  margin-top: 10px;
+  color: var(--gray);
+  font-size: max(1.2vw, 16px);
+  cursor: pointer;
+}
+
+.explore-menu hr {
+  margin: 10px 0;
+  height: 2px;
+  background-color: #e2e2e2;
+  border: none;
+}
+
+.explore-menu-list-item .active {
+  border: 4px solid var(--primary);
+  padding: 2px;
+}
+
+@media (max-width: 1050px) {
+  .explore-menu-text {
+    max-width: 100%;
+    font-size: 14px;
+  }
+}
+
+.popular-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+  color: var(--dark);
+}
+
+.popular-food-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+@media (max-width: 1050px) {
+  .popular-food-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .popular-food-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.promo-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.promo-card {
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  height: 104%; /* INCREASED LENGTH */
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.promo-card h3 {
+  margin: 5px 0 0;
+  font-size: 20px;
+}
+
+.promo-card p {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0;
+  color: #ffd700;
+}
+
+.promo-card.promo-wide {
+  grid-row: span 2;
+  height: 266px; /* <-- updated from default */
+}
+
+/* Optional: make it responsive */
+@media (max-width: 768px) {
+  .promo-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .promo-card.promo-wide {
+    height: 200px;
+  }
+
+  .promo-card {
+    height: 150px;
+  }
+}
+
+

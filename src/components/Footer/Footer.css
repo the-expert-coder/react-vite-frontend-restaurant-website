@@ -1,0 +1,90 @@
+footer {
+  margin-top: 80px;
+  background-color: #f6f6f6;
+  color: #3d4152;
+  font-family: sans-serif;
+  padding: 40px 8vw 20px;
+  border-top: 1px solid #ccc;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr repeat(4, 1fr);
+  gap: 40px;
+}
+
+.footer-logo-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-logo {
+  width: 100px;
+}
+
+.footer-col h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.footer-col li {
+  cursor: pointer;
+  color: #686b78;
+}
+
+.footer-col li:hover {
+  text-decoration: underline;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.footer-social-icons img {
+  width: 20px;
+  cursor: pointer;
+}
+
+.footer-app-download {
+  margin-top: 80px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.footer-app-download p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer-app-buttons img {
+  height: 40px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .footer-app-buttons img {
+    height: 35px;
+  }
+
+  .footer-logo-block {
+    grid-column: span 2;
+  }
+}
