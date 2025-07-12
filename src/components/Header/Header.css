@@ -1,7 +1,10 @@
 header {
   height: 34vw;
   margin: 30px auto;
+<<<<<<< Updated upstream
   background: url("./header_img.png") no-repeat;
+=======
+>>>>>>> Stashed changes
   background-size: cover;
   position: relative;
   border-radius: 24px;
